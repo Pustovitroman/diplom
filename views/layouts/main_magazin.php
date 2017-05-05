@@ -38,7 +38,7 @@ AppAsset::register($this);
                 <div class="header-top">
                     <?php if(Yii::$app->user->isGuest):?>
 
-                        <a href="site/login">Вхід</a> &nbsp<a href="site/registry">Реєстрація</a>
+                        <a href="/site/login">Вхід</a> &nbsp<a href="/site/registry">Реєстрація</a>
                     <?php else: ?>
 
                         <?= Html::beginForm(['/site/logout'], 'post')
